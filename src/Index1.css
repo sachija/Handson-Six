@@ -1,0 +1,113 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(154, 197, 74),
+            rgb(235, 187, 195),
+            rgb(71, 82, 134));
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#items {
+    align-items: center;
+    color: bisque;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(22, 22, 59);
+}
+
+fieldset {
+    width: 500px;
+    height: 40px;
+    border: 2px solid;
+}
+
+.box {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.boxitems {
+    padding: 30px;
+
+}
+
+#cancel {
+    width: 100px;
+    height: 40px;
+    background-color: gray;
+    border: 2px solid;
+    border-radius: 20px;
+    top: 350px;
+    left: 900px;
+    position: relative;
+}
+
+#update {
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    top: 350px;
+    left: 950px;
+}
+
+span {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#new {
+    height: 40px;
+    width: 250px;
+    background-color: gainsboro;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 20px;
+    left: 950px;
+    top: 50px;
+    position: relative;
+
+
+}
+
+input {
+    width: 400px;
+    height: 20px;
+    background-color: transparent;
+    border: solid transparent;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    background-color: rgb(177, 219, 219);
+}
+
+#tp {
+    margin-top: 100px;
+}
+
+th,
+td {
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
